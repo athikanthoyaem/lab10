@@ -14,7 +14,7 @@ int main (){
 	string textline ;
 	cout << "-------------------- BOOM ---------------------" << "\n" ;
 	while(getline(source,textline)){
-		cout << textline << "\n" ;
+		cout << textline << "\n";
 	}
 	cout << "-------------------- HA!! ---------------------" << "\n" ; 
     source.close();
